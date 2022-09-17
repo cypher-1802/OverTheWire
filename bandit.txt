@@ -1,0 +1,125 @@
+Level 0->1
+
+cat readme
+Password : NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+-------------------------------------------
+
+Level 1->2
+
+cat ./-
+Password : rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+-------------------------------------------
+
+Level 2->3
+
+cat "spaces in this filename"
+Password : aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+-------------------------------------------
+
+Level 3->4
+
+cd inhere/
+ls -la
+cat .hidden
+Password : 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+-------------------------------------------
+
+Level 4->5
+
+find inhere/ -type f | xargs file | grep text
+cat ./inhere/-file07
+Password : lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+-------------------------------------------
+
+Level 5->6
+
+cd inhere
+find . -size 1033c ! -executable -type f
+cat ./maybehere07/.file2
+Password : P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+-------------------------------------------
+
+Level 6->7
+
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+cat /var/lib/dpkg/info/bandit7.password
+Password : z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+-------------------------------------------
+
+Level 7->8
+
+cat data.txt | grep millionth
+Password : TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+-------------------------------------------
+
+Level 8->9
+
+cat data.txt | sort | uniq -u
+Password : EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+-------------------------------------------
+
+Level 9->10
+
+strings data.txt | grep ==
+Password : G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+-------------------------------------------
+
+Level 10->11
+
+base64 -d data.txt 
+Password : 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+-------------------------------------------
+
+Level 11->12
+
+cat data.txt | tr a-zA-Z n-za-mN-ZA-M
+Password : JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+-------------------------------------------
+
+Level 12->13
+
+mkdir /tmp/safiya
+cp ./data.txt /tmp/safiya
+cd /tmp/safiya
+
+cat data.txt | xxd -r > data
+mv data data2.gz
+gzip -d data2.gz
+mv data2 data3.bz
+bzip2 -d data3.bz
+mv data3 data4.gz
+gzip -d data4.gz 
+mv data4 data5.tar
+tar -xf data5.tar
+mv data5.bin data6.tar
+tar -xf data6.tar
+mv data6.bin data7.bz
+bzip2 -d data7.bz
+mv data7 data8.tar
+tar -xf data8.tar
+mv data8.bin data9.gz
+gzip -d data9.gz
+cat data9
+
+Password : wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+-------------------------------------------
+
+Level 13->14
+
+ssh bandit14@localhost -p 2220 -i sshkey.private
+cat /etc/bandit_pass/bandit14
+Password : fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+-------------------------------------------
+
+Level 14->15
+
+nc localhost 30000
+fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+Password : jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+
+
+
+
+
+
