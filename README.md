@@ -1,9 +1,8 @@
-OverTheWire - Bandit
+# OverTheWire - Bandit
 
-Answers for Bandit Wargame
+Solutions of Bandit Wargame
 
-Connect to server
-
+# Connect to server
 
 Host - bandit.labs.overthewire.org
 
